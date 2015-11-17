@@ -1,0 +1,4 @@
+rootProject.name = 'SriMapBoxGL'
+include ':app'
+include ':reactnativemapboxgl', ':app'
+project(':reactnativemapboxgl').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-mapbox-gl/android')

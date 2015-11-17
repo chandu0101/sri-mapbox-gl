@@ -1,0 +1,12 @@
+{
+  "name": "SriMapBoxGL",
+  "version": "0.2.0",
+  "private": true,
+  "scripts": {
+    "start": "node_modules/react-native/packager/packager.sh"
+  },
+  "dependencies": {
+    "react-native": "^0.15.0-rc",
+    "react-native-mapbox-gl": "^1.1.0"
+  }
+}
